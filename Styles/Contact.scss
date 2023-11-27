@@ -1,0 +1,32 @@
+@import "../Variables/Variables.scss";
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $second-color;
+
+  .contact-items{
+    display: flex;
+    gap: 3rem;
+  }
+
+  .items {
+    text-decoration: none;
+    color: $primary-color;
+    font-size: $font-big;
+  }
+
+  button {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: $titles-color;
+  }
+
+  h2 {
+    color: $second-color;
+  }
+}

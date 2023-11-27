@@ -1,0 +1,19 @@
+@import "../Variables/Variables.scss";
+
+.home-container {
+  background-color: $second-color; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    color: #66796B;
+    margin-right: 20px;
+    font-size: $font-big;
+  }
+
+  .icons {
+    display: flex;
+    gap: 0.5em;
+  }
+}
+

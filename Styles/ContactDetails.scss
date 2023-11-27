@@ -1,0 +1,16 @@
+@import "../Variables/Variables.scss";
+
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  background-color: $second-color;
+  color: $primary-color;
+}
+
+.details-button {
+  padding: 10px; 
+  border-radius: 5px;
+}

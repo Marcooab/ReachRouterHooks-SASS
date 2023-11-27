@@ -1,0 +1,16 @@
+@import "../Variables/Variables.scss";
+
+.footer-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primary-color;
+  color: $titles-color;
+  font-size: $font-small;
+  gap: 1em;
+  h2 {
+    margin-right: 0.5rem;
+    font-weight: 200;
+  }  
+}
